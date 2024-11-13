@@ -9,14 +9,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(250deg,#4B086D, #ACC0FE );
+    background: linear-gradient(250deg,#0B453A, #095544,#17876D );
 }
 
 .container {
     width: 1200px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    padding: 30px;
+    border-radius: 26px;
+    padding: 12px;
     background: rgba(255, 255, 255, 0.1);
     margin: 30px auto;
     display: grid;
@@ -29,7 +29,7 @@ body{
     height: 200px;
     object-fit: cover;
     transition: 0.5s;
-    border-radius: 18px;
+    border-radius: 20px;
 }
 
 .container img:nth-child(1) {
