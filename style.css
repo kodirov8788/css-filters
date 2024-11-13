@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(250deg,#4B086D, #ACC0FE );
+}
+
 .container {
     width: 90%;
     border: 2px solid black;
@@ -18,6 +26,7 @@
     height: 200px;
     object-fit: cover;
     transition: 0.5s;
+
 }
 
 .container img:nth-child(1) {
