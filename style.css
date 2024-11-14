@@ -1,14 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
 
 body{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: linear-gradient(250deg,#0B453A, #095544,#17876D );
 }
 
@@ -106,4 +110,9 @@ body{
 
 .container img:nth-child(9):hover {
     filter: saturate(100%)
+}
+
+h1{
+    letter-spacing: 3px;
+    font-size: 40px;
 }
