@@ -1,6 +1,7 @@
 {
-    "name":"Ribiya",
+    "name":"Robiya",
     "age":"33",
     "city":"Ufa",
-    "country":"Russia"
+    "country":"Russia",
+    "gender":"male"
 }
